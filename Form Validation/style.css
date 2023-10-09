@@ -1,0 +1,39 @@
+body {
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+#form-container {
+    background-color: white;
+    padding: 50px;
+    text-align: center;
+}
+
+h2 {
+    margin: 0px 0px 15px 0px;
+}
+
+input {
+    width: 200px;
+    margin: 10px 0px;
+    padding: 10px;
+}
+
+#btn {
+    width: 220px;
+    background-color: rgb(51, 206, 206);
+    border: 0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+    margin: 0;
+    text-align: left;
+}

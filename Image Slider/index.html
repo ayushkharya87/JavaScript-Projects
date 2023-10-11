@@ -1,1 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
 
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="slide-container">
+
+        <div class="slide">
+            <img src="image/img1.png" alt="">
+            <div class="caption">img 1</div>
+        </div>
+
+        <div class="slide">
+            <img src="image/img2.jfif" alt="">
+            <div class="caption">img 2</div>
+        </div>
+
+        <div class="slide">
+            <img src="image/img3.jfif" alt="">
+            <div class="caption">img 3</div>
+        </div>
+
+        <div class="slide">
+            <img src="image/img4.webp" alt="">
+            <div class="caption">img 4</div>
+        </div>
+
+        <span class="arrow prev" onclick="controller(-1)">&#10094;</span>
+        <span class="arrow next" onclick="controller(1)">&#10095;</span>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>

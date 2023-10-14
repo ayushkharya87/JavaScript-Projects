@@ -1,0 +1,28 @@
+body {
+    padding: 40px 100px;
+}
+
+h1 {
+    text-align: center;
+    background-color: navy;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+}
+
+#text-box {
+    width: 95%;
+    border-color: navy;
+    margin-left: 20px;
+    height: 200px;
+    font-size: 20px;
+}
+
+p {
+    text-align: center;
+    background-color: rgb(44, 44, 140);
+    color: white;
+    padding: 5px;
+    font-size: 20px;
+    font-weight: bold;
+}
